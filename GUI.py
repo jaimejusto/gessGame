@@ -20,10 +20,13 @@ surface = pyg.display.set_mode((screen_width, screen_height))
 pyg.display.set_caption("Gess Game")
 surface.fill(white)
 
+
 def wood(x, y):
     surface.blit(woodImage, (x, y))
 
-pyg.Surface.scroll()
+x = (screen_width // 2000)
+y = (screen_height // 2000)
+
 # close window by clicking X
 while True:
     for event in pyg.event.get():
@@ -34,6 +37,5 @@ while True:
             pyg.quit()
             exit()
     pyg.display.update()
-
-
+    wood(x, y)
 
