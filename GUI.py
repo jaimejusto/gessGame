@@ -24,6 +24,7 @@ surface.fill(white)
 def wood(x, y):
     surface.blit(woodImage, (x, y))
 
+
 x = (screen_width // 2000)
 y = (screen_height // 2000)
 

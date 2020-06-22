@@ -197,6 +197,7 @@ class GessGame:
             self.new_board()        # board is reset
             self.display_board()    # board is displayed
             self._new_game = False
+            self.check_for_rings()
 
         # winner has been declared and game has ended
         if self._game_winner is not None:
@@ -672,3 +673,8 @@ class GessGame:
         # piece direction and distance is allowed
         else:
             return True
+
+
+game = GessGame()
+game.make_move("c3", "c5")
+game.make_move("d15", "d13")
