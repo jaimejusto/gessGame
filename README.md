@@ -5,7 +5,7 @@ Gess is a two player game that is a combination of Chess and Go.
 - Starting with Black, players take turns to move their piece on the board.
 - A move must change the stone configuration, therefore, a player is not allowed to skip their turn. 
 
-### Board Pieces: 
+#### Board Pieces: 
 - A piece consists of a 3x3 grid of squares, called the footprint, which may only be moved by the player whose stones are within the 3x3 grid.
   - A piece cannot contain stones of the other player.
   - A piece must contain at least one stone around the central square.
@@ -17,6 +17,6 @@ Gess is a two player game that is a combination of Chess and Go.
 - If the footprint moves partially out of the board, the move ends. The stones of the piece which are on the square that has moved out of the board are removed.
 - A move may also end before any stone is removed.
 
-### How to Win:
+#### How to Win:
 - If a player has no ring pieces on the board after their turn, that player loses the game. If neither player has a ring piece, the player who has just moved loses the game.
   - A ring is any piece consisting of eight stones around an empty central square. 
